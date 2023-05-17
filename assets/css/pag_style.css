@@ -1,0 +1,166 @@
+
+/* Typography */
+body, ul, li, p, a, label, input, div {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+}
+
+.justificar{
+  text-align: justify;
+}
+
+.h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px !important;
+  font-weight: 200;
+}
+.titulo_p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px !important;
+  font-weight: 300;
+}
+.h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px !important;
+}
+/* General */
+.logo { font-weight: 500 !important;}
+.text-warning {  color: #6c78e1 !important;}
+.text-muted { color: #162328!important;}
+.text-success { color: #4cabe7 !important;}
+.text-light { color: #DAEAF1 !important;}
+.bg-dark { background-color: #310046 !important;}
+.bg-light { background-color: #D4ADFC !important;}
+.bg-black { background-color: #5C469C !important;}
+.bg-success { background-color: #e88cc2 !important;}
+.btn-success {
+  background-color: #eda34f !important;
+  border-color: #473b1b !important;
+}
+.pagination .page-link:hover {color: #000;}
+.pagination .page-link:hover, .pagination .page-link.active {
+  background-color: #1D267D;
+  color: #fff;
+}
+/* Nav */
+#movimiento_nav_top { min-height: 40px;}
+#movimiento_nav_top * { font-size: .9em !important;}
+#movimiento_main_nav a { color: #212934;}
+#movimiento_main_nav a:hover { color: #6c69bb;}
+#movimiento_main_nav .navbar .nav-icon { margin-right: 20px;}
+
+/* Hero Carousel */
+#carrusel_1 { background: #efefef !important;}
+/* Accordion */
+.movimiento-accordion a { color: #000;}
+.movimiento-accordion a:hover { color: #333d4a;}
+/* Shop */
+.shop-top-menu a:hover { color: #1D267D !important;}
+/* Product */
+.card.product-wap .card .product-overlay {
+  background: rgba(107, 108, 112, 0.2);
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s;
+}
+.card.product-wap:hover .card .product-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+.card.product-wap a { color: #000;}
+#carousel-related-product .slick-slide:focus { outline: none !important;}
+#carousel-related-product .slick-dots li button:before {
+  font-size: 15px;
+  margin-top: 20px;
+}
+/* Brand */
+.brand-img {
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: .5s;
+}
+.brand-img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+/* Carousel Hero index*/
+#carrusel_1 .carousel-indicators li {
+  margin-top: -50px;
+  background-color: #310046;
+}
+#carrusel_1 .carousel-control-next i,
+#carrusel_1 .carousel-control-prev i {
+  color: #6359ab !important;
+  font-size: 2.8em !important;
+}
+/* Carousel Brand */
+.tempaltemo-carousel .h1 {
+  font-size: .5em !important;
+  color: #000000 !important;
+}
+/* Services */
+.services-icon-wap {transition: .3s;}
+.services-icon-wap:hover, .services-icon-wap:hover i {color: #fff;}
+.services-icon-wap:hover {background: #1D267D;}
+/* Contact map */
+.leaflet-control a, .leaflet-control { font-size: 10px !important;}
+.form-control { border: 1px solid #e8e8e8;}
+/* Footer */
+#_footer a { color: #dcdde1;}
+#_footer a:hover { color: #eec626;}
+#_footer ul.footer-link-list li { padding-top: 10px;}
+#_footer ul.footer-icons li {
+  width: 2.6em;
+  height: 2.6em;
+  line-height: 2.6em;
+}
+#_footer ul.footer-icons li:hover {
+  background-color: #cfd6e1;
+  transition: .5s;
+}
+#_footer ul.footer-icons li:hover i {
+  color: #212934;
+  transition: .5s;
+}
+#_footer .border-light { border-color: #2d343f !important;}
+
+
+.product-wap .h3, .product-wap li, .product-wap i, .product-wap p {
+  font-size: 12px !important;
+}
+.product-wap .product-color-dot {
+  width: 6px;
+  height: 6px;
+}
+
+
+#subscribeEmail {
+  color: #efefef;
+}
+
+@media (min-width: 576px) {
+  .tempaltemo-carousel .h1 { font-size: 1em !important;}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  #movimiento_main_nav .navbar-nav {max-width: 450px;}
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  #movimiento_main_nav .navbar-nav {max-width: 550px;}
+  #carrusel_1 .carousel-item {min-height: 30rem !important;}
+  .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {font-size: 18px !important;}
+  .product-wap .product-color-dot {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
